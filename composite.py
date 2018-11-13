@@ -25,10 +25,6 @@ class Composite(Component):
 
 
 class Leaf(Component):
-    """
-    Represent leaf objects in the composition. A leaf has no children.
-    Define behavior for primitive objects in the composition.
-    """
 
     def operation(self):
         pass
